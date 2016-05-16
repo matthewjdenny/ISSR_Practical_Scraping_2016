@@ -10,7 +10,7 @@ This Git repo contains all materials necessary for this ISSR Practical Web and T
 
 You will then want to `clone` this repo onto your computer using either the 
 
-    https://github.com/matthewjdenny/ISSR_Data_Science_Summer_Summit_15.git
+    https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016.git
 
 link and your client or by clicking the "Clone in Desktop" button on the right hand side of the page. If you want to directly edit the files posted here and track your changes, you can copy individual files into another directory and create your own repo with the files in it.  We will go over using Github in detail on the first morning of the workshop, so there is no need to spend too much time trying to figure Github out.
 
@@ -20,8 +20,7 @@ This is a draft outline of the workshop schedule, it will likely change over the
 
 ### Before the workshop
 
-Please check out the following resources:
-
+You should be comfortable with R up to the level presented in the [**[ISSR Data Management in R Workshop]**](https://github.com/matthewjdenny/ISSR_Data_Management_in_R_2016).  
 
 ### Wednesday
 
@@ -40,4 +39,10 @@ Please check out the following resources:
 5. **1:00-3:00** Analyzing text data.
 
 ## Resources
+
+* Hadley Wickham has an R package `rvest` for web scraping that is detailed in this [blog post](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/).
+* A blog post by Charles Dimaggio that I have referred to in the past: [blog post](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/styled-4/styled-6/code-13/).
+* Another blog post by Zev Ross that I have referred to in the past: [blog post](http://zevross.com/blog/2015/05/19/scrape-website-data-with-the-new-r-package-rvest/).
+* Hadley Wickham wrote a book that covers a bunch of advanced functionality in R, titled **Advanced R** -- which is available online for free here -- <http://adv-r.had.co.nz/>.
+
 
