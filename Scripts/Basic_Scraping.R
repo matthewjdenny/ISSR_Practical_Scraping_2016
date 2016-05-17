@@ -7,10 +7,11 @@ rm(list = ls())
 # set your working directory to some place you can find
 setwd("~/Desktop")
 
-# first we will need to install the packages we plan to use for this exercise.
-install.packages("httr", dependencies = TRUE)
-install.packages("rvest", dependencies = TRUE)
-install.packages("stringr", dependencies = TRUE)
+# first we will need to install the packages we plan to use for this exercise (
+# if they are not already installed on your computer).
+# install.packages("httr", dependencies = TRUE)
+# install.packages("rvest", dependencies = TRUE)
+# install.packages("stringr", dependencies = TRUE)
 
 # httr is a package for downloading html
 library(httr)
