@@ -24,19 +24,19 @@ You should be comfortable with R up to the level presented in the [**[ISSR Data 
 
 ### Wednesday
 
-1. **9:00-10:00** Basic web scraping in R [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Basic_Scraping.R). 
+1. **9:00-10:00** Basic web scraping in R:  [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Basic_Scraping.R). 
 2. **10:00-10:10** Break
-3. **10:10-12:00** Scraping Twitter and Facebook [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Scraping_Twitter_and_Facebook.R), [**[Helpful Tutorial]**](https://github.com/SMAPPNYU/smappR). 
+3. **10:10-12:00** Scraping Twitter:  [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Scraping_Twitter.R), [**[Helpful Tutorial]**](https://github.com/SMAPPNYU/smappR), [**[StreamR Github]**](https://github.com/pablobarbera/streamR).   
 4. **12:00-1:00** Lunch
 5. **1:00-3:00** Advanced web scraping
 
 ### Thursday
 
-1. **9:00-11:00** Introduction to text processing in R [**[Tutorial]**](http://www.mjdenny.com/Text_Processing_In_R.html).  
+1. **9:00-11:00** Introduction to text processing in R [**[Script]**](http://mjdenny.com/workshops/Text_Processing_in_R.R), [**[Tutorial]**](http://www.mjdenny.com/Text_Processing_In_R.html).  
 2. **11:00-11:10** Break.
-3. **11:10-12:00** Text Processing using SpeedReader and Quanteda.
+3. **11:10-12:00** Text Processing using Quanteda.
 4. **12:00-1:00** Lunch
-5. **1:00-3:00** Analyzing text data.
+5. **1:00-3:00** Analyzing text data with SpeedReader.
 
 ## Resources
 
