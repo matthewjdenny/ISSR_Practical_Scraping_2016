@@ -28,16 +28,16 @@ You should be comfortable with R up to the level presented in the [**[ISSR Data 
 2. **10:00-10:10** Break
 3. **10:10-12:00** Scraping Twitter:  [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Scraping_Twitter.R), [**[Helpful Tutorial]**](https://github.com/SMAPPNYU/smappR), [**[StreamR Github]**](https://github.com/pablobarbera/streamR).   
 4. **12:00-1:00** Lunch
-5. **1:00-3:00** Advanced web scraping
-6. **Optional homework assignment (sample solution at end of file)**: [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Scraping_Exercise.R)
+5. **1:00-3:00** Advanced web scraping [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Advanced_Web_Scraping.R)
 
 ### Thursday
 
 1. **9:00-11:00** Introduction to text processing in R [**[Script]**](http://mjdenny.com/workshops/Text_Processing_in_R.R), [**[Tutorial]**](http://www.mjdenny.com/Text_Processing_In_R.html).  
 2. **11:00-11:10** Break.
-3. **11:10-12:00** Text Processing using Quanteda.
+3. **11:10-12:00** Text processing and analysis using Quanteda and SpeedReader.
 4. **12:00-1:00** Lunch
-5. **1:00-3:00** Analyzing text data with SpeedReader.
+5. **1:00-2:00** Text processing and analysis using Quanteda and SpeedReader (continued).
+5. **2:00-3:00** Synthesis exercise: [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Scraping_Exercise.R).
 
 ## Resources
 
