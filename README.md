@@ -29,6 +29,7 @@ You should be comfortable with R up to the level presented in the [**[ISSR Data 
 3. **10:10-12:00** Scraping Twitter:  [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Scraping_Twitter.R), [**[Helpful Tutorial]**](https://github.com/SMAPPNYU/smappR), [**[StreamR Github]**](https://github.com/pablobarbera/streamR).   
 4. **12:00-1:00** Lunch
 5. **1:00-3:00** Advanced web scraping
+6. **Optional homework assignment (sample solution at end of file)**: [**[Script]**](https://github.com/matthewjdenny/ISSR_Practical_Scraping_2016/blob/master/Scripts/Scraping_Exercise.R)
 
 ### Thursday
 
