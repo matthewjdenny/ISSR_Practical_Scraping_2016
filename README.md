@@ -20,7 +20,10 @@ This is a draft outline of the workshop schedule, it will likely change over the
 
 ### Before the workshop
 
-You should be comfortable with R up to the level presented in the [**[ISSR Data Management in R Workshop]**](https://github.com/matthewjdenny/ISSR_Data_Management_in_R_2016).  
+You should be comfortable with R up to the level presented in the [**[ISSR Data Management in R Workshop]**](https://github.com/matthewjdenny/ISSR_Data_Management_in_R_2016).  Also, if you have not already done so, please download R and RStudio (or update your installation to the newest version):
+
+* Download R: <https://cran.r-project.org/>
+* Download RStudio: <https://www.rstudio.com/products/rstudio/download/>
 
 ### Wednesday
 
