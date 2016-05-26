@@ -24,7 +24,7 @@ authURL <- "https://api.twitter.com/oauth/authorize"
 # you will need to fill in these two as suggested in the directions given at the
 # webpage above:
 consumerKey <- "XXX"
-consumerSecret <- "YYY"
+consumerSecret <- "XXX"
 my_oauth <- OAuthFactory$new(consumerKey = consumerKey,
                              consumerSecret = consumerSecret,
                              requestURL = requestURL,
@@ -57,7 +57,8 @@ setwd("~/Desktop")
 
 # here we are going to use the filter function which uses dome sort of criteria
 # for determining which tweets should be saved.
-filterStream("tweets.json", track = c("Clinton", "Trump"),
+filterStream("tweets.json",
+             track = c("Clinton", "Trump"),
              timeout = 60,
              oauth = my_oauth)
 
@@ -78,7 +79,7 @@ sampleStream("tweetsSample.json",
              verbose = FALSE)
 
 # load them into a data.frame and take a look!
-tweets.df <- parseTweets("tweetsSample.json",
+tweets.df2 <- parseTweets("tweetsSample.json",
                          verbose = FALSE)
 
 
@@ -103,6 +104,9 @@ map.data <- map_data("state")
 points <- data.frame(x = as.numeric(tweets.USA$lon),
                      y = as.numeric(tweets.USA$lat))
 points <- points[points$y > 0, ]
+
+points <- data.frame(x = as.numeric(tweets.df$lon),
+                     y = as.numeric(tweets.df$lat))
 
 # plot the points on the map using ggplot2
 ggplot(map.data) + geom_map(aes(map_id = region),
