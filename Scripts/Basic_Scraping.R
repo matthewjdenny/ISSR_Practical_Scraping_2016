@@ -89,6 +89,9 @@ write.table(x = page_content,
 
 # now lets think about what we might like to extract from this page?
 
+# lets look inside the function
+string <- "Laurel Smith-Doerr"
+return_source <- FALSE
 
 # Write a function to go get the number of results that pop up for a given name
 # in google scholar.
@@ -102,7 +105,7 @@ get_google_scholar_results <- function(string,
     string <- tolower(string)
 
     # split the string on spaces
-    str <- str_split(string," ")[[1]]
+    str <- stringr::str_split(string," ")[[1]]
 
     # combine the resulting parts of the string with + signs so "Matt Denny"
     # will end up as "matt+denny" which is what Google Scholar wants as input
@@ -168,6 +171,6 @@ get_google_scholar_results("Joya Misra")
 
 get_google_scholar_results("Laurel Smith-Doerr")
 
-get_google_scholar_results("Noam Chomsky")
+get_google_scholar_results("Nilanjana dasgupta")
 
 get_google_scholar_results("Gary Becker")
