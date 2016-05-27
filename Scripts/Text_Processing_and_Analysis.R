@@ -39,7 +39,7 @@ doc_term_matrix <- quanteda::dfm(documents,
                                  removePunct = TRUE,
                                  removeSeparators = TRUE,
                                  removeTwitter = FALSE,
-                                 stem = FALSE,
+                                 stem = TRUE,
                                  language = "english")
 
 # look at some of the vocabulary
@@ -52,7 +52,7 @@ word_counts <- colSums(doc_term_matrix)
 word_counts <- word_counts[order(word_counts, decreasing = TRUE)]
 
 # top words
-head(word_counts,n = 20)
+head(word_counts,n = 100)
 
 # bottom words
 tail(word_counts,n = 20)

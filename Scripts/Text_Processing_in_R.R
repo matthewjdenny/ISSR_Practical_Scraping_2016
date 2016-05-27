@@ -2,7 +2,7 @@
 
 #0. Preliminaries
 rm(list = ls())
-setwd("~/Desktop")
+setwd("~/Dropbox/RA_and_Consulting_Work/ISSR_Practical_Scraping_2016/Data")
 
 require(stringr)
 
@@ -12,9 +12,11 @@ my_string <- "Example STRING, with numbers (12, 15 and also 10.2)?!"
 lower_string <- tolower(my_string)
 
 second_string <- "Wow, two sentences."
+
 my_string <- paste(my_string,second_string,sep = " ")
 
-my_string_vector <- str_split(my_string, "!")[[1]]
+my_string_vector <- str_split(my_string, " ")[[1]]
+
 
 grep("\\?",my_string_vector)
 
@@ -22,7 +24,9 @@ grepl("\\?",my_string_vector[1])
 
 str_replace_all(my_string, "e","___")
 
-str_extract_all(my_string,"[0-9]+")
+str_extract_all(my_string,"[0-9]+")[[1]]
+
+nchar(my_string)
 
 # Function to clean and tokenize a string
 Clean_String <- function(string){
@@ -30,7 +34,7 @@ Clean_String <- function(string){
     temp <- tolower(string)
     #' Remove everything that is not a number or letter (may want to keep more
     #' stuff in your actual analyses).
-    temp <- stringr::str_replace_all(temp,"[^a-zA-Z\\s]", " ")
+    temp <- stringr::str_replace_all(temp,"[^a-z\\s]", " ")
     # Shrink down to just one white space
     temp <- stringr::str_replace_all(temp,"[\\s]+", " ")
     # Split it
@@ -105,6 +109,7 @@ clean_speech2 <- Clean_Text_Block(text2)
 # install.packages("BH",dependencies = T)
 
 # jsut make sure you saved the cpp file to the currentworking directory
+setwd("~/Dropbox/RA_and_Consulting_Work/ISSR_Practical_Scraping_2016/Scripts")
 Rcpp::sourceCpp('Generate_Document_Word_Matrix.cpp')
 
 
