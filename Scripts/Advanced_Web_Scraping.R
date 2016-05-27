@@ -79,7 +79,7 @@ for (i in 1:pages) {
 
     # make sure we sleep for a full minute to prevent ourselves from being rate
     # limited
-    Sys.sleep(60)
+    Sys.sleep(30)
 }
 
 # set column names
